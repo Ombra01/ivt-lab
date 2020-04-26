@@ -29,7 +29,11 @@ public class GT4500 implements SpaceShip {
   * 			- To give some cooling time to the torpedo stores, torpedo stores are fired alternating.
   * 			- But if the store next in line is empty, the ship tries to fire the other store.
   * 			- If the fired store reports a failure, the ship does not try to fire the other one.
+<<<<<<< HEAD
   * 	ALL:	tries to fire both of the torpedo stores. If one of the stores is empty,
+=======
+  * 	ALL:	tries to fire both of the torpedo stores. If one of the stores is empty, firing fails
+>>>>>>> branch-B
   *
   * @return whether at least one torpedo was fired successfully
   */
