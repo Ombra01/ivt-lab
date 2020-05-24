@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.*;
 
-public class GT4500Test {
+class GT4500Test {
 
   private GT4500 ship;
 
@@ -90,7 +90,7 @@ public class GT4500Test {
     when(mockSecondaryTorpedoStore.isEmpty()).thenReturn(true);
     when(mockPrimaryTorpedoStore.fire(1)).thenReturn(true);
     when(mockPrimaryTorpedoStore.fire(1)).thenReturn(true);
-    
+
     // Act
     ship.fireTorpedo(FiringMode.SINGLE);
     ship.fireTorpedo(FiringMode.SINGLE);
