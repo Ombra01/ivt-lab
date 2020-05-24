@@ -1,0 +1,7 @@
+	Test method							Description
+		
+fireTorpedo_SingleSecondary_Success		try to fire the secondary first
+fireTorpedo_SingleEmptyStores_Failure		both of the stores are empty, nothing can be done, return failure
+fireTorpedo_SingleSecondaryEmpty_Success	primary was fired last time, but the secondary is empty thus try to fire primary again
+fireTorpedo_SinglePrimaryEmpty_Successs		secondary was fired last time, but primary is empty thus try to fire secondary again
+fireTorpedo_AllPrimaryEmpty_Faulure		if one of the stores are empty, the ship can't fire both torpedoes at once, return failure
